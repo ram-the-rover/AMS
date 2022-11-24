@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-jdhv@&gqgzx7!gs#2^r46*&7sr29cgcn5@wv$d5g8%avaphsal
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'info.User'
 
@@ -82,9 +82,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ams',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'USER': 'pr1',
+        'PASSWORD': 'Ram@1234',
+        'HOST': '10.64.149.41',
         'PORT': '3306',
     }
 }
