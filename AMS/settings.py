@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'AMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ams',
-        'USER': 'pr2',
-        'PASSWORD': 'Ram@1234',
-        'HOST': '10.64.149.41',
-        'PORT': '3306',
+        'NAME': 'contactbook',
+        'USER': 'admin',
+        'PASSWORD': 'Tally1234',
+        'HOST': 'cloudops-intern.cqsfa5whiluu.us-east-1.rds.amazonaws.com',
+        'PORT': '3306'
     }
 }
 
